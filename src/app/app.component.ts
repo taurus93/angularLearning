@@ -15,7 +15,7 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    const arrayFromString = this.genericFunc<string>('beep');
+    const arrayFromString = this.genericFunc<string>('TungLeThanh');
     console.log(arrayFromString[0]);         // "beep"
     console.log(typeof arrayFromString[0]);   // String
 
